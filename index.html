@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <style>
+    *{
+      margin: 20px;
+      padding: 0;
+    }
+    body,
+    html{
+      color: white;
+      /*font-family: sans-serif;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*min-height: 100vh;*/
+    }
+    body{
+      background-color: black ;
+
+    }
+    .center .avatar img{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-top: 5%;
+      object-fit: cover;
+      object-position: 0 -8px;
+
+    }
+    .center{
+      width: 105%;
+      background-color: white;
+      height: 55%;
+      text-align: center;
+      /*border-radius: 5px;*/
+
+    }
+
+    h1{
+      color: black;
+      font-family: "Comic Sans MS";
+      font-size: 40px;
+    }
+
+    .row {
+      height: auto;
+      width: auto;
+      float: left;
+
+    }
+
+    .icons{
+      display:inline-block;
+
+    }
+    a.icons:hover {
+      background: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <div class="center">
+    <div class="avatar">
+      <img src="img/gj.jpg" alt="face" width ="485" height ="600">
+    </div>
+    <div class="content">
+      <h1>
+        GAURAV JAISINGHANI
+      </h1>
+
+      <div class="row">
+          <a href="https://drive.google.com/file/d/12eD7zxEuqItukG6ORpbVTa11pBBjtBiJ/view?usp=sharing" class = "icons"><img src="img/resume.jpg" alt="Resume" style="width:42px;height:42px;"></a>
+          <a href="https://github.com/gauravha" class = "icons"><img src="img/github.png" alt="Github" style="width:42px;height:42px;"></a>
+          <a href="https://www.linkedin.com/in/gauravjaisinghani" class = "icons"><img src="img/Linkedin_circle_black-512.png" alt="LinkedIn" style="width:42px;height:42px;"></a>
+          <a href="mailto:jaisinghanigaurav.gj@gmail.com" class = "icons"><img src="img/mail.png" alt="Mailto" style="width:42px;height:42px;"></a>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
